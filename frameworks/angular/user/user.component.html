@@ -1,0 +1,11 @@
+<div class="user">
+  <button (click)="rename()">(rename)</button>
+
+  <p class="user-name">🧑‍💻 {{ user().name }}</p>
+
+  <p class="user-state {{ user().accountState }}">
+    <span>{{ user().accountState }}</span>
+  </p>
+
+  <button (click)="logout()">(logout)</button>
+</div>
